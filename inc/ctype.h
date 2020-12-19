@@ -1,3 +1,6 @@
+#ifndef CTYPE_H
+# define CTYPE_H
+
 int ft_isalpha(int c);
 int ft_isblank(int c);
 int ft_isspace(int c);
@@ -13,3 +16,5 @@ int ft_isupper(int c);
 int ft_tolower(int c);
 int ft_toupper(int c);
 int ft_isxdigit(int c);
+
+#endif
